@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PassowrdGenerateT</string>
+    <string name="textOnboardingAppOne">Seja bem vindo ao nosso App de gerador de senhas.</string>
+    <string name="textOnboardingTwo">Pensando em você, facilitaremos sua vida ao gerir senhas, seja em aplicativos, banco ou até mesmo para redes sociais.</string>
+    <string name="textOnboardingThree">Será fácil, clique no botão para te criarmos senhas!!</string>
+    <string name="btnContinue">Continuar</string>
+</resources>
