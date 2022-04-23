@@ -5,5 +5,6 @@
     <string name="textOnboardingThree">Será fácil, clique no botão para te criarmos senhas!!</string>
     <string name="btnContinue">Continuar</string>
     <string name="txtSelectPassword">Escolha o tipo de senha que você deseja gerar</string>
+    <string name="txtGenerate">Gerar</string>
 
 </resources>
