@@ -1,11 +1,8 @@
-package com.silva.murillo.passowrdgeneratet.ui
+package com.silva.murillo.passowrdgeneratet.ui.views
 
-import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.activity.result.ActivityResult
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.databinding.DataBindingUtil
 import com.silva.murillo.passowrdgeneratet.R
 import com.silva.murillo.passowrdgeneratet.databinding.ActivityOnboardingBinding
@@ -27,6 +24,7 @@ class OnboardingActivity : AppCompatActivity() {
             btnGo.setOnClickListener {
                 intent.putExtra(RESULT, true)
                 startActivity(Intent(applicationContext, GeneratePasswordActivity::class.java))
+                finish()
             }
         }
     }

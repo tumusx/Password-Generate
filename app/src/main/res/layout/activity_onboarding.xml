@@ -6,7 +6,7 @@
 
         <variable
             name="viewmodel"
-            type="com.silva.murillo.passowrdgeneratet.ui.OnboardingActivity" />
+            type="com.silva.murillo.passowrdgeneratet.ui.views.OnboardingActivity" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

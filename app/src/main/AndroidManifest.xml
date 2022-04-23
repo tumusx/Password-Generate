@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PassowrdGenerateT">
         <activity
-            android:name=".ui.GeneratePasswordActivity"
+            android:name=".ui.views.GeneratePasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.OnboardingActivity"
+            android:name=".ui.views.OnboardingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -4,4 +4,6 @@
     <string name="textOnboardingTwo">Pensando em você, facilitaremos sua vida ao gerir senhas, seja em aplicativos, banco ou até mesmo para redes sociais.</string>
     <string name="textOnboardingThree">Será fácil, clique no botão para te criarmos senhas!!</string>
     <string name="btnContinue">Continuar</string>
+    <string name="txtSelectPassword">Escolha o tipo de senha que você deseja gerar</string>
+
 </resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_array">
+        <item>5 dígitos e 1 caracter especial</item>
+        <item>Sem caracter especial, 1 letra/nmaíuscula e 6 números</item>
+        <item>1 caracter especial, 1 número,/n1 caracter maíusculo e 5 letras</item>
+    </string-array>
+</resources>
