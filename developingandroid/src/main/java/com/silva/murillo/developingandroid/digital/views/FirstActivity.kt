@@ -1,17 +1,20 @@
-package com.silva.murillo.developingandroid
+package com.silva.murillo.developingandroid.digital.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.widget.AppCompatButton
+import com.silva.murillo.developingandroid.R
 import kotlin.random.Random
 
 class FirstActivity : AppCompatActivity() {
+    private lateinit var  imageDice : ImageView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_first)
         configure()
+        imageDice = findViewById(R.id.imageView)
     }
 
     private fun configure() {
@@ -34,8 +37,6 @@ class FirstActivity : AppCompatActivity() {
             5 -> R.drawable.dice_5
             else -> R.drawable.dice_6
         }
-
-        val textResult: ImageView = findViewById(R.id.textNew)
-        textResult.setImageResource(drawablabe)
+       imageDice.setImageResource(drawablabe)
     }
 }
