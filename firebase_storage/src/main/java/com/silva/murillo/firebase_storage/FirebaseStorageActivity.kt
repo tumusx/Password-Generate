@@ -42,7 +42,7 @@ class FirebaseStorageActivity : AppCompatActivity() {
         appButonDownload.apply {
             setOnClickListener {
                 val storageDownload: StorageReference =
-                    storageRef.child("storage").child("ticketlog.png")
+                    storageRef.child("storage").child("file.pdf")
                 storageDownload.downloadUrl.addOnSuccessListener {it->
                     Log.d("string", "${it}")
                     Toast.makeText(context, showResponseDownload, Toast.LENGTH_SHORT).show()
